@@ -1,0 +1,39 @@
+switch (dayMonth) {
+    case 1:
+        break;
+    case 2:
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        break;
+    case 3:
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        break;
+    case 4:
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        break;
+    case 5:
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        break;
+    case 6:
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        break;
+    case 0:
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        calendar.innerHTML += `<div class="free-day"></div>`;
+        break;
+    default:
+        break;
+}
